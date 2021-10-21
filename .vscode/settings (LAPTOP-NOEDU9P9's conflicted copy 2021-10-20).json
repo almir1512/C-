@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "type_traits": "cpp",
+        "*.tcc": "cpp",
+        "random": "cpp",
+        "new": "cpp",
+        "iosfwd": "cpp",
+        "fstream": "cpp"
+    },
+    "git.ignoreLimitWarning": true
+}
