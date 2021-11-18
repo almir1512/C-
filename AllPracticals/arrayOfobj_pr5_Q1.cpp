@@ -36,5 +36,6 @@ int main()
     b1[i].setdata();
     b1[i].getdata();
     }
+    
     return 0;
 }

@@ -5,7 +5,7 @@ int arr[2][2];
 static int count ;
     public:
     void readValues(){
-    cout<<"----Matrix "<<count<<"s----"<<endl;
+    cout<<"----Matrix "<<count<<"----"<<endl;
     for (int i = 0; i < 2; i++)
     {
         for (int j = 0; j < 2; j++)
@@ -16,7 +16,7 @@ static int count ;
         
     }
     }
-    void diplaymat(){
+    void displaymat(){
     for (int i = 0; i < 2; i++)
     {
         for (int j = 0; j < 2; j++)
@@ -51,9 +51,8 @@ int main()
     t1.readValues();
     t2.readValues();
     t3=t1+t2;
-    t1.diplaymat();
-    t2.diplaymat();
-    t3.diplaymat();
-   
+    t1.displaymat();
+    t2.displaymat();
+    t3.displaymat();
     return 0;
 }
