@@ -31,7 +31,7 @@ class book{
 };
 int main()
 {
-    book b1[5];
+    book b1[3];
     for(int i=0;i<4;i++){
     b1[i].setdata();
     b1[i].getdata();
